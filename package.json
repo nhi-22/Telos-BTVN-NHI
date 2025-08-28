@@ -1,0 +1,27 @@
+{
+  "name": "telos-frontend-26",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watchdemo5": "npx tailwindcss  -i ./demo5/input.css -o ./demo5/output.css --watch",
+    "watchdemo6": "npx tailwindcss  -i ./demo6/input.css -o ./demo6/output.css --watch",
+    "watchbtvn4": "npx tailwindcss  -i ./btvn4/input.css -o ./btvn4/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhi-22/Telos-BTVN-NHI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhi-22/Telos-BTVN-NHI/issues"
+  },
+  "homepage": "https://github.com/nhi-22/Telos-BTVN-NHI#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
