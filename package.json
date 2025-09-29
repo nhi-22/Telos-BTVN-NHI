@@ -6,7 +6,13 @@
   "scripts": {
     "watchdemo5": "npx tailwindcss  -i ./demo5/input.css -o ./demo5/output.css --watch",
     "watchdemo6": "npx tailwindcss  -i ./demo6/input.css -o ./demo6/output.css --watch",
-    "watchbtvn4": "npx tailwindcss  -i ./btvn4/input.css -o ./btvn4/output.css --watch"
+    "watchbtvn4": "npx tailwindcss  -i ./btvn4/input.css -o ./btvn4/output.css --watch",
+    "dev:webportfolio": "npx tailwindcss  -i ./webportfolio/input.css -o ./webportfolio/output.css --watch"
+    
+
+
+    
+    
   },
   "repository": {
     "type": "git",

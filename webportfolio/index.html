@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      background: black;
+      border-radius: 50%;
+      animation: expand 2s ease-out forwards;
+    }
+
+    @keyframes expand {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(50); /* đủ lớn để phủ toàn màn hình */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="circle"></div>
+
+  <script>
+    // Sau 2 giây (thời gian animation), chuyển sang home.html
+    setTimeout(() => {
+      window.location.href = "HOME.html";
+    }, 2000);
+  </script>
+</body>
+</html>
